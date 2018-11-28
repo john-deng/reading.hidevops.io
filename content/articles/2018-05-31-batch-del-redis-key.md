@@ -1,5 +1,6 @@
-## 批量删除redis中的key
-
+---
+title: 批量删除redis中的key
+---
 * **1.首先看图**
 
 ![](./images/batch-del-redis-key_one.png)

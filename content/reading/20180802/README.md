@@ -1,4 +1,7 @@
-# golang中goroutine的调度
+---
+title: golang中goroutine的调度
+---
+
 郑宝杨(boya) 2018-08-01 listomebao@gmail.com
 
 ## 阅读源码前可以阅读的资料

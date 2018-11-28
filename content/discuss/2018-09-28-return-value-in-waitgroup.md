@@ -1,4 +1,6 @@
-## 2018-09-28
+---
+title: 2018-09-28 goroutine 中怎么得到返回值
+---
 
 来源: Wechat discuss
 

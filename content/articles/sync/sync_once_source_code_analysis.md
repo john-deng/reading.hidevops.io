@@ -1,5 +1,6 @@
-# sync.Once源码分析
-
+---
+title: sync.Once源码分析
+---
 sync.Once可以实现单例模式，确保sync.Once.Do(f func())只会被执行一次，可以初始化某个实例单例。
 
 针对Golang 1.9的sync.Once，与Golang 1.10一样。 源代码位置：sync\once.go。

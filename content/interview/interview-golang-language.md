@@ -1,5 +1,6 @@
-# Golang语言
-
+---
+title:  Golang语言
+---
 _1.select是随机的还是顺序的？_
 
 > select会`随机`选择一个可用通用做收发操作

@@ -1,11 +1,8 @@
-## 2018-05-18
-
-来源：《Go 夜读》微信群
-
-时间：2018-05-18
-
-----
-
+---
+title:  2018-05-18 包循环依赖如何解决
+source: 《Go 夜读》微信群
+data: 2018-05-18
+---
 ## 1. 包循环依赖如何解决？
 
 ![import_cycle_not_allowed](../images/import_cycle_not_allowed.jpeg)

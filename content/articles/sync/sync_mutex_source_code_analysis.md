@@ -1,5 +1,6 @@
-# sync.Mutex 源码分析
-
+---
+title: sync.Mutex 源码分析
+---
 针对 Golang 1.10.3 的 sync.Mutex 进行分析，代码位置：`sync/mutex.go`
 
 ## 结构体

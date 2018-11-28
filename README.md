@@ -1,3 +1,3 @@
-# https://hiboot.hidevops.io
+# https://reading.hidevops.io
 
-Hiboot Official Site
+Go 夜读

@@ -1,5 +1,6 @@
-# Golang 代码质量持续检测
-
+---
+title: Golang 代码质量持续检测
+---
 > Author: Kenny Allen
 >
 > Email:    kennyallen0520@gmail.com

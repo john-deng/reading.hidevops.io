@@ -1,4 +1,6 @@
-﻿## 2018-05-09
+﻿---
+title: 2018-05-09 微信群讨论
+---
 
 来源：《Go 夜读》微信群
 时间：2018-05-09
@@ -42,8 +44,6 @@ func init() {
 
 有一个全局变量 x，在 `init()` 函数里面赋值，然后获取 x 的值发现全局变量未赋值，这种情况有什么优雅的解决方法吗？
 
-1. 
-
 ```go
 var x string
 func init() {
@@ -54,24 +54,20 @@ func init() {
 
 这个:=为什么不能对全局变量起作用呢？因为它成为局部变量了，屏蔽了全局变量作用域。
 
-2. 
-
-<del>
-
 ```go
 var x string 
 func init()(err error) {
     x, err = getValue()
 }
 ```
-</del>
 
 以上代码是 **错误** 的，Go 语言中 main() 和 init() 函数都不能有返回值，否则编译会报错：
 
-```
+```go
 func init must have no arguments and no return values
 func main must have no arguments and no return values
 ```
+
 ## 参考资料
 
 1. [Go 开发工具](https://github.com/yangwenmai/learning-golang#go-开发工具)

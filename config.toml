@@ -45,8 +45,8 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 	# Theme color, available values are: red, pink, purple, deep purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, grey and blue-grey
 	[params.palette]
-    	primary = "cyan"
-    	accent  = "deep-purple"
+    	primary = "teal"
+    	accent  = "green"
 
     [params.font]
     	text = "Ubuntu"
