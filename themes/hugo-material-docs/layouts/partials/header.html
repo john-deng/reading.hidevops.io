@@ -10,15 +10,9 @@
                 {{ .Title }}
             </div>
         </div>
-        <div class="button button-twitter" role="button" aria-label="Home">
+        
+        <div class="button button-home" role="button" aria-label="Home">
             <a href="https://hidevops.io" title="Home" target="_blank"  class="toggle-button icon icons-home"></a>
-            <div class="layer_box">
-                {{ range .Site.Languages }}
-                  {{ if not (eq .Lang $.Site.Language.Lang) }}
-                  <a href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang .LanguageName }}</a>
-                  {{ end }}
-                {{ end }}
-            </div>
         </div>
 
         {{ with .Site.Social.twitter }}
