@@ -12,13 +12,18 @@
         </div>
         
         <div class="button button-home" role="button" aria-label="Home">
-            <a href="https://hidevops.io" title="Home" target="_blank"  class="toggle-button icon icons-home"></a>
+            <a href="https://hidevops.io" title="Home" target="_blank"  class="toggle-button icon icons-home3"></a>
         </div>
 
+        <div class="button button-youtube" role="button" aria-label="Youtube">
+            <a href="{{ .Site.Social.youtube }}" title="Youtube" target="_blank"  class="toggle-button icon icons-youtube"></a>
+        </div>
+        
         {{ with .Site.Social.twitter }}
         <div class="button button-twitter" role="button" aria-label="Twitter">
             <a href="https://twitter.com/{{ . }}" title="@{{ . }} on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
         </div>
+        
         {{ end }} {{ with .Site.Social.github }}
         <div class="button button-github" role="button" aria-label="GitHub">
             <a href="https://github.com/{{ . }}" title="@{{ . }} on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
