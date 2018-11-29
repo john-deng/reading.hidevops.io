@@ -39,6 +39,10 @@ title: 多路复用资源池组件剖析
 
 workshop 就是实现了上述多条异步连接间的负载均衡，健康检测等。
 
+## 观看视频
+
+{{< youtube id="ImJim15N_Wc" >}}
+
 ## 参考资料
 
 1. [为什么多 TCP 连接比单TCP连接传输快](https://segmentfault.com/a/1190000008803687)
