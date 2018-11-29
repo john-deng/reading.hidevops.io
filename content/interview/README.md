@@ -1,18 +1,18 @@
 ---
 title:  面试题专区
 ---
-- [笔试题](./interview-pen.md)
-- [Golang语言](./interview-golang-language.md)
-- [数据库](./interview-database.md)
-- [网络](./interview-network.md)
-- [操作系统](./interview-os.md)
-- [数据结构](./interview-data-structure.md)
-- [架构](./interview-architecture.md)
-- [设计题](./interview-design.md)
-- [算法题](./interview-algorithm.md)
+- [笔试题](/interview/interview-pen/)
+- [Golang语言](/interview/interview-golang-language/)
+- [数据库](/interview/interview-database/)
+- [网络](/interview/interview-network/)
+- [操作系统](/interview/interview-os/)
+- [数据结构](/interview/interview-data-structure/)
+- [架构](/interview/interview-architecture/)
+- [设计题](/interview/interview-design/)
+- [算法题](/interview/interview-algorithm/)
 
 # 看面试题学习go
-- [Golang面试题解析（一）](./articles/interview_analysis_1.md)
-- [Golang面试题解析（二）](./articles/interview_analysis_2.md)
-- [Golang面试题解析（三）](./articles/interview_analysis_3.md)
-- [Golang面试题解析（四）](./articles/interview_analysis_4.md)
+- [Golang面试题解析（一）](/interview/articles/interview_analysis_1/)
+- [Golang面试题解析（二）](/interview/articles/interview_analysis_2/)
+- [Golang面试题解析（三）](/interview/articles/interview_analysis_3/)
+- [Golang面试题解析（四）](/interview/articles/interview_analysis_4/)
